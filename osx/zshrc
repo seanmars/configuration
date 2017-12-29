@@ -1,5 +1,0 @@
-# execute some files
-for file in ~/dotfiles/.bash_*
-do
-        . "$file"
-done
