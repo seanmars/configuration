@@ -1,2 +1,2 @@
 # tree
-alias lt='tree -laphugCD -L 1'
+alias la='tree -laphugCD -L 1'
