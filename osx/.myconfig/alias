@@ -1,4 +1,7 @@
 #!/usr/bin/bash
 
+# thefuck
+eval $(thefuck --alias)
+
 # tree
 alias la='tree -laphugCD -L 1'
