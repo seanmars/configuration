@@ -1,4 +1,4 @@
-!#/usr/bin/bash
+#!/usr/bin/bash
 
 # tree
 alias la='tree -laphugCD -L 1'
