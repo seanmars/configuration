@@ -1,9 +1,9 @@
-# OSX Scaffold
+# Setup my OSX
 
-- [Application list](#application-list)
-  - [Base](#base)
-  - [Work](#work)
-- [Step-by-step Installation](#step-by-step-installation)
+- [Application lis](#Application list)
+  - [Base](#Base)
+  - [Work](#Work)
+- [Step-by-step Installation](#Step-by-step Installation)
 
 
 
@@ -161,6 +161,9 @@
              1. Download the config
              ```bash
              mkdir .myconfig
+             ```
+
+             ```bash
              wget https://raw.githubusercontent.com/seanmars/dotfiles/master/osx/.myconfig/oh-my-zsh-theme -O .myconfig/oh-my-zsh-theme
              ```
 
@@ -213,5 +216,8 @@
 
 ```bash
 wget https://raw.githubusercontent.com/seanmars/dotfiles/master/osx/.myconfig/alias -O .myconfig/alias
+```
+
+```bash
 echo "source .myconfig/alias" >> ~/.zshrc
 ```
