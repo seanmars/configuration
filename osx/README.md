@@ -1,9 +1,9 @@
 # OSX Scaffold
 
-- [Application lis](#Application list)
-  - [Base](#Base)
-  - [Work](#Work)
-- [Step-by-step Installation](#Step-by-step Installation)
+- [Application list](#application-list)
+  - [Base](#base)
+  - [Work](#work)
+- [Step-by-step Installation](#step-by-step-installation)
 
 
 
