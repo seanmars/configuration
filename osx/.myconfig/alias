@@ -2,6 +2,7 @@
 
 # thefuck
 eval $(thefuck --alias)
+alias fk='fuck'
 
 # tree
 alias la='tree -laphugCD -L 1'
