@@ -27,6 +27,7 @@
      - wget
      - tree
      - thefuck https://github.com/nvbn/thefuck
+     - ccat https://github.com/jingweno/ccat
 
   - font
 
@@ -86,45 +87,27 @@
    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    ```
 
-   1. Install wget
+   1. Install Apps
 
       ```bash
-      brew install wget
+      brew install wget tree thefuck ccat zsh
       ```
 
-   2. Install tree
-
-      ```bash
-      brew install tree
-      ```
-      
-   3. Install [thefuck](https://github.com/nvbn/thefuck)
-
-      ```bash
-      brew install thefuck
-      ```
-
-   4. Install zsh
-
-      ```bash
-      brew install zsh
-      ```
-
-      change the default shell to zsh
-
+   2. Setup zsh - Change the default shell to zsh
+   
       ```bash
       sudo sh -c "echo $(which zsh) >> /etc/shells"
       chsh -s $(which zsh)
       ```
       
-   5. Add tap
+   3. Add tap
 
       ```bash
       brew tap caskroom/cask
       brew tap caskroom/fonts
       ```
       
-   6. Install font: font-firacode-nerd-font
+   4. Install font: font-firacode-nerd-font
 
       ```bash
       brew cask install caskroom/fonts/font-fira-code
