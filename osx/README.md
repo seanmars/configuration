@@ -137,9 +137,13 @@
   brew cask install iterm2
   ```
 
-3. Change the color to one-dark
+3. Change the iterm2 color
 
    - Download the schema from https://github.com/mbadolato/iTerm2-Color-Schemes
+   
+   ```bash
+   https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Tomorrow%20Night%20Eighties.itermcolors -O tomorrow-night-eighties.itermcolors
+   ```
 
 4. Change the font to `14pt firacode-nerd-font` in `Preferences > Profiles > Text > Change Font`.
 
