@@ -131,7 +131,11 @@
       brew cask install caskroom/fonts/font-firacode-nerd-font
       ```
 
-2. Install [iTerm2](https://www.iterm2.com/), download app fomr website and install it.
+2. Install [iTerm2](https://www.iterm2.com/), install by Homebrew-Cask or download fomr website.
+
+  ```bash
+  brew cask install iterm2
+  ```
 
 3. Change the color to one-dark
 
