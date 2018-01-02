@@ -127,6 +127,7 @@
    6. Install font: font-firacode-nerd-font
 
       ```bash
+      brew cask install caskroom/fonts/font-fira-code
       brew cask install caskroom/fonts/font-firacode-nerd-font
       ```
 
