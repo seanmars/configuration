@@ -97,20 +97,14 @@
       ```bash
       brew install tree
       ```
-
-   3. Add tap cask
-
-      ```bash
-      brew tap cask
-      ```
-
-   4. Install [thefuck](https://github.com/nvbn/thefuck)
+      
+   3. Install [thefuck](https://github.com/nvbn/thefuck)
 
       ```bash
       brew install thefuck
       ```
 
-   5. Install zsh
+   4. Install zsh
 
       ```bash
       brew install zsh
@@ -122,7 +116,14 @@
       sudo sh -c "echo $(which zsh) >> /etc/shells"
       chsh -s $(which zsh)
       ```
+      
+   5. Add tap
 
+      ```bash
+      brew tap caskroom/cask
+      brew tap caskroom/fonts
+      ```
+      
    6. Install font: font-firacode-nerd-font
 
       ```bash
