@@ -1,3 +1,36 @@
+colors() {
+	# Reset
+	NORMAL="\e[0m"
+	# Set
+	BLOD="\e[1m"
+	DIM="\e[2m"
+	UNDERLINE="\e[4m"
+	BLINK="\e[5m"
+	REVERSE="\e[7m"
+	HIDDEN="\e[8m"
+
+	# Foreground
+	DEFAULT="\e[39m"
+
+	BLUE="\e[30m"
+	RED="\e[31m"
+	GREEN="\e[32m"
+	YELLOW="\e[33m"
+	BLUE="\e[34m"
+	MAGENTA="\e[35m"
+	CYAN="\e[36m"
+	LGRAY="\e[37m"
+
+	DGRAY="\e[90m"
+	LRED="\e[91m"
+	LGREEN="\e[92m"
+	LYELLOW="\e[93m"
+	LBLUE="\e[94m"
+	LMAGENTA="\e[95m"
+	LCYAN="\e[96m"
+	WHITE="\e[97m"
+}
+
 install() {
 	printf "${GREEN}Install Homebrew...\n${NORMAL}"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -33,7 +66,10 @@ setting() {
 	wget https://raw.githubusercontent.com/seanmars/dotfiles/master/osx/.myconfig/alias -O ~/.myconfig/alias
 
 	printf "${GREEN}Download the theme powerlevel9k for oh-my-zsh...\n${NORMAL}"
-	git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+	DIRECTORY=~/.oh-my-zsh/custom/themes/powerlevel9k
+	if [ ! -d "${DIRECTORY}" ]; then
+		git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+	fi
 
 	printf "${GREEN}Setting oh-my-zsh theme...\n${NORMAL}"
 	SCRIPT="source .myconfig/oh-my-zsh-theme"
@@ -53,11 +89,14 @@ setting() {
 		printf "${CYAN}Insert [${SCRIPT}] done.\n${NORMAL}"
 	fi
 
-	printf "${RED}Type the following to change the shell:\n\n${NORMAL}"
+	printf "${RED}Step.1:\nType the following to change the shell:\n\n${NORMAL}"
 	printf "\tsudo sh -c \"echo $(which zsh) >> /etc/shells\"\n"
 	printf "\tchsh -s $(which zsh)\n"
 	printf "\nReset the terminal...\n"
+
+	printf "${RED}Step.2:\nChange the font and color schema.${NORMAL}"
 }
 
+colors
 install
 setting
