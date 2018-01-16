@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+# oh-my-zsh
+# disable auto cd
+unsetopt AUTO_CD
+
 # thefuck
 eval $(thefuck --alias)
 alias fk='fuck'
