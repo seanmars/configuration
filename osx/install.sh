@@ -72,7 +72,7 @@ setting() {
 	fi
 
 	printf "${GREEN}Setting oh-my-zsh theme...\n${NORMAL}"
-	SCRIPT="source .myconfig/oh-my-zsh-theme"
+	SCRIPT="source ~/.myconfig/oh-my-zsh-theme"
 	TARGET=~/.zshrc
 	THEME_STR="ZSH_THEME="
 	if ! grep -q $SCRIPT $TARGET; then
@@ -82,7 +82,7 @@ setting() {
 	fi
 
 	printf "${GREEN}Setting oh-my-zsh alias...\n${NORMAL}"
-	SCRIPT="source .myconfig/alias"
+	SCRIPT="source ~/.myconfig/alias"
 	TARGET=~/.zshrc
 	if ! grep -q $SCRIPT $TARGET; then
 		echo "${SCRIPT}" >>${TARGET}
