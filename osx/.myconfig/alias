@@ -9,4 +9,4 @@ eval $(thefuck --alias)
 alias fk='fuck'
 
 # tree
-alias la='tree -laphugCD -L 1'
+alias la='tree -laphugCDN -L 1'
