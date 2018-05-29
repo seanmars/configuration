@@ -5,3 +5,12 @@ syntax on
 set nu
 " mouse supported
 set mouse=a
+
+set enc=utf8
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+set scrolloff=3
+set cursorline
