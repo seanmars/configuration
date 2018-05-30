@@ -17,7 +17,7 @@ omf reload
 
 ## Modify
 
-Add the below script in `~/.config/fish/function/fish_prompt.fish`
+Add the below script in `~/.config/fish/function/fish_prompt.fish` and call the `__bobthefish_timestamp` in `fish_prompt` function.
 
 ```fish
 # Time
@@ -29,5 +29,3 @@ function __bobthefish_timestamp -S -d 'Show the current timestamp'
   printf (date $theme_date_format)
 end
 ```
-
-and the `__bobthefish_timestamp` into the `fish_prompt` function in `~/.config/fish/function/fish_prompt.fish`
