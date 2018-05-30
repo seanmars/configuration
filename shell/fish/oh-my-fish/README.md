@@ -28,4 +28,16 @@ function __bobthefish_timestamp -S -d 'Show the current timestamp'
 
   printf (date $theme_date_format)
 end
+
+# ==============================
+# Apply theme
+# ==============================
+
+function fish_prompt -d 'bobthefish, a fish theme optimized for awesome'
+...
+...
+__bobthefish_timestamp
+...
+...
+end
 ```
