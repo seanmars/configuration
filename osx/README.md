@@ -28,6 +28,10 @@
      - tree
      - thefuck https://github.com/nvbn/thefuck
      - ccat https://github.com/jingweno/ccat
+     - bat
+     - cloc
+     - htop
+     - nmap
 
   - font
 
