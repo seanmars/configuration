@@ -28,10 +28,11 @@
      - tree
      - thefuck https://github.com/nvbn/thefuck
      - ccat https://github.com/jingweno/ccat
-     - bat
+     - [bat](https://github.com/sharkdp/bat) A cat(1) clone with wings. 可取代 
      - cloc
      - htop
      - nmap
+     - [fzf](https://github.com/junegunn/fzf) command-line fuzzy finder
 
   - font
 
