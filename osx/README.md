@@ -33,7 +33,8 @@
      - htop
      - nmap
      - [fzf](https://github.com/junegunn/fzf) command-line fuzzy finder
-
+     - [gitbatch](https://github.com/isacikgoz/gitbatch)
+     
   - font
 
      - font-firacode-nerd-font
