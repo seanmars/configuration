@@ -24,6 +24,7 @@
   - app
 
      - zsh
+      - https://github.com/zsh-users/zsh-completions
      - wget
      - tree
      - thefuck https://github.com/nvbn/thefuck
