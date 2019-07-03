@@ -38,6 +38,7 @@
      - [ripgrep](https://github.com/BurntSushi/ripgrep) ripgrep recursively searches directories for a regex pattern
      - [gitbatch](https://github.com/isacikgoz/gitbatch)
      - [lsd](https://github.com/Peltoche/lsd) The next gen ls command
+     - [scc](https://github.com/boyter/scc) Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
      
   - font
 
