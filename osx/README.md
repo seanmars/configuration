@@ -27,12 +27,12 @@
       - https://github.com/zsh-users/zsh-completions
      - wget
      - tree
-     - thefuck https://github.com/nvbn/thefuck
-     - ccat https://github.com/jingweno/ccat
-     - [bat](https://github.com/sharkdp/bat) A cat(1) clone with wings. 可取代 
-     - cloc
-     - htop
-     - nmap
+     - [thefuck](https://github.com/nvbn/thefuck) Magnificent app which corrects your previous console command.
+     - [ccat](https://github.com/jingweno/ccat) Colorizing `cat` >> alternative to `bat` 
+     - [bat](https://github.com/sharkdp/bat) A cat(1) clone with wings.
+     - [cloc](https://github.com/AlDanial/cloc) cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.
+     - [htop](https://hisham.hm/htop/index.php) This is htop, an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.
+     - [nmap](https://nmap.org/) Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing.
      - [fzf](https://github.com/junegunn/fzf) command-line fuzzy finder
      - [fd](https://github.com/sharkdp/fd) A simple, fast and user-friendly alternative to 'find'
      - [ripgrep](https://github.com/BurntSushi/ripgrep) ripgrep recursively searches directories for a regex pattern
@@ -40,11 +40,8 @@
      - [lsd](https://github.com/Peltoche/lsd) The next gen ls command
      - [scc](https://github.com/boyter/scc) Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
      
-  - font
-
-     - font-firacode-nerd-font
-
-        `brew cask install caskroom/fonts/font-firacode-nerd-font`
+- font
+  - [nerd font](https://github.com/ryanoasis/nerd-fonts)
 
 - oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 
