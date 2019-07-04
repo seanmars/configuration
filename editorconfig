@@ -10,13 +10,16 @@ insert_final_newline = true
 
 [*.json]
 indent_size = 4
-indent_style = space
 insert_final_newline = false
 
 [*.md]
 indent_size = 2
-indent_style = space
 insert_final_newline = false
 
-[*.yml]
+[*.{yml,yaml}]
+indent_size = 2
 insert_final_newline = false
+
+[**.min.js]
+indent_style = ignore
+insert_final_newline = ignore
