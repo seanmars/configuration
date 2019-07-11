@@ -1,0 +1,3 @@
+# .NET 
+# For tools installed with `dotnet tool` command
+export PATH="$HOME/.dotnet/tools:$PATH"
