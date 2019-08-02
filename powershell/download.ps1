@@ -63,5 +63,5 @@ Function Copy-Folder([string]$source, [string]$destination, [bool]$recursive) {
 }
 
 $outputPath = (Get-Location).Path + "/output/"
-$url = "http://cntsrftp.chinesegamer.net/tsr_test/1.0.0/LuaScripts/Lua/"
+$url = "http://xxx/xxx/"
 Copy-Folder $url -destination $outputPath -recursive 1
