@@ -97,6 +97,8 @@ setting() {
 	printf "${RED}Step.2:\nChange the font and color schema.${NORMAL}"
 }
 
+# set -euxo pipefail
 colors
 install
 setting
+# set +euxo pipefail
