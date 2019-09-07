@@ -1,3 +1,5 @@
+<# %UserProfile%/Documents/PowerShell/ #>
+
 <# Setting #>
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
