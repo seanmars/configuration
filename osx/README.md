@@ -43,6 +43,9 @@
 - font
   - [nerd font](https://github.com/ryanoasis/nerd-fonts)
 
+- color
+  - [Gogh](https://github.com/Mayccoll/Gogh)
+
 - oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 
    Oh My Zsh is an open source, community-driven framework for managing your [zsh](http://www.zsh.org/) configuration.
