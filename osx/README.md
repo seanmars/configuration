@@ -210,7 +210,7 @@
          POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0
          POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=2
 
-         POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host time dir dir_writable vcs status)
+         POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host time dir dir_writable vcs virtualenv status)
          POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time ip)
          ```
 
