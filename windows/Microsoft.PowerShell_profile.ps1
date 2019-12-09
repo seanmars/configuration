@@ -16,3 +16,11 @@ function touch { if((Test-Path -Path ($args[0])) -eq $false) { set-content -Path
 
 # Git command: Update all git submodules
 function smp { git submodule foreach git pull }
+
+# Generate Guid
+function guid
+{
+  $output = New-Guid
+  $output.Guid
+}
+New-Alias uuid guid
