@@ -2,13 +2,12 @@
 
 ## Tools
 
-The Package Manager for Windows:
+### The Package Manager
 
 - [Scoop](https://scoop.sh/)
 - [Chocolatey](https://chocolatey.org/)
 
-
-## Diagram software
+### Diagram software
 
 - [draw.io](https://www.draw.io/)
 - [Pencil](https://pencil.evolus.vn/)
