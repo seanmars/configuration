@@ -1,5 +1,9 @@
 # Windows
 
+- DarkConEmu.xml -> Color schema for `ConEmu`
+- Mars.psm1 -> Theme setting for `oh-my-posh`
+- Microsoft.PowerShell_profile.ps1 -> Configuration for `PowerShell Core`
+
 ## Fonts
 
 - [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more https://NerdFonts.com
