@@ -16,6 +16,7 @@
 ### Terminal
 
 - [PowerShell Core](https://github.com/PowerShell/PowerShell) PowerShell Core is a cross-platform
+- [Windows Terminal](https://github.com/microsoft/terminal) The new Windows Terminal and the original Windows console host, all in the same place!
 - [ConEmu](https://conemu.github.io/) ConEmu-Maximus5 aims to be handy, comprehensive, fast and reliable terminal window where you may host any console application developed either for WinAPI (cmd, powershell, far) or Unix PTY (cygwin, msys, wsl bash).
 
 #### Tools
