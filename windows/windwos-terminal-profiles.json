@@ -7,7 +7,7 @@
 		"defaults": {
 			"fontFace": "JetBrainsMono Nerd Font Mono",
 			"fontSize": 12,
-			"colorScheme": "Dracula",
+			"colorScheme": "dracula",
 			"startingDirectory": "d:/"
 		},
 		"list": [
@@ -84,7 +84,7 @@
 			"cyan": "#8BE9FD",
 			"foreground": "#F8F8F2",
 			"green": "#50FA7B",
-			"name": "Dracula",
+			"name": "dracula",
 			"purple": "#FF79C6",
 			"red": "#FF5555",
 			"white": "#F8F8F2",
