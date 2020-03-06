@@ -11,7 +11,7 @@
 - [JetbrainsMono](https://www.jetbrains.com/lp/mono/) JetBrainsMono. A typeface for developers_
 - [Cascadia Code](https://github.com/microsoft/cascadia-code) This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
 
-## Tools
+## Misc
 
 ### Terminal
 
@@ -19,14 +19,15 @@
 - [Windows Terminal](https://github.com/microsoft/terminal) The new Windows Terminal and the original Windows console host, all in the same place!
 - [ConEmu](https://conemu.github.io/) ConEmu-Maximus5 aims to be handy, comprehensive, fast and reliable terminal window where you may host any console application developed either for WinAPI (cmd, powershell, far) or Unix PTY (cygwin, msys, wsl bash).
 
-#### Tools
+#### Tools, extensions
 
 - [Orang](https://github.com/JosefPihrt/Orang) Search, replace, rename and delete directories, files and its content using the power of .NET regular expressions
 
-#### PowerShell-Extension
+##### PowerShell Only
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) A prompt theming engine for Powershell
 - [Get-ChildItemColor](https://github.com/joonro/Get-ChildItemColor) Add coloring to the output of Get-ChildItem Cmdlet of PowerShell.
+- [gsudo](https://github.com/gerardog/gsudo) A Sudo for Windows - run elevated without spanning a new Console Host Window
 
 ### The Package Manager
 
