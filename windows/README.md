@@ -31,8 +31,8 @@
 
 ### The Package Manager
 
-- [Scoop](https://scoop.sh/)
-- [Chocolatey](https://chocolatey.org/)
+- [Scoop](https://scoop.sh/) A command-line installer for Windows
+- [Chocolatey](https://chocolatey.org/) The Package Manager for Windows
 
 ### Diagram software
 
