@@ -33,7 +33,7 @@
             },
             {
                 "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Ubuntu-18.04",
                 "source": "Windows.Terminal.Wsl"
             },
@@ -46,8 +46,8 @@
         ]
     },
     "keybindings": [
-        { "command": "copy", "keys": ["ctrl+shift+c"] },
-        { "command": "paste", "keys": ["ctrl+shift+v"] },
+        { "command": "copy", "keys": ["ctrl+c"] },
+        { "command": "paste", "keys": ["ctrl+v"] },
         { "command": "newTab", "keys": ["ctrl+t"] },
         { "command": "find", "keys": ["ctrl+f"] },
         { "command": "closeTab", "keys": ["ctrl+w"] },
