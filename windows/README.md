@@ -13,9 +13,19 @@
 
 ## Misc
 
+### Develop
+
+- [Jetbrain Toolbox](https://www.jetbrains.com/)
+- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
 ### Tools
 
 - [PowerToys](https://github.com/microsoft/PowerToys) Windows system utilities to maximize productivity
+- [Todoist](https://todoist.com/)
+- [DisplayFusion](https://www.displayfusion.com/)
+- [ShareX](https://getsharex.com/)
+- [1Password](https://1password.com/)
 
 ### Terminal
 
@@ -43,3 +53,9 @@
 - [draw.io](https://www.draw.io/)
 - [Pencil](https://pencil.evolus.vn/)
 - [yEd](https://www.yworks.com/products/yed)
+
+### Cloud Storage
+
+- [DropBox](https://www.dropbox.com/)
+- [GoogleSync](https://www.google.com/drive/download/)
+- [OneDrive](https://www.microsoft.com/zh-tw/microsoft-365/onedrive/online-cloud-storage)
