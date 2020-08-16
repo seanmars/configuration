@@ -1,7 +1,7 @@
 # Windows
 
 - DarkConEmu.xml -> Color schema for `ConEmu`
-- Mars.psm1 -> Theme setting for `oh-my-posh`
+- Mars.psm1 -> Theme setting for [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 - Microsoft.PowerShell_profile.ps1 -> Configuration for `PowerShell Core`
 
 ## Fonts
