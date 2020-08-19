@@ -1,4 +1,5 @@
-#requires -Version 2 -Modules posh-git
+# requires -Version 2 -Modules posh-git
+# put this file under `C:\Users\{USERNAME}\Documents\PowerShell\Modules\oh-my-posh\{VERSION}\Themes`
 
 function Write-Theme {
     param(
