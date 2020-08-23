@@ -120,8 +120,8 @@
    4. Install font: font-firacode-nerd-font
 
       ```bash
-      brew cask install caskroom/fonts/font-fira-code
-      brew cask install caskroom/fonts/font-firacode-nerd-font
+      brew cask install font-fira-code
+      brew cask install font-jerbrains-mono-nerd-font
       ```
 
 2. Install [iTerm2](https://www.iterm2.com/), install by Homebrew-Cask or download fomr website.
