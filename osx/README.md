@@ -114,8 +114,7 @@
    3. Add tap
 
       ```bash
-      brew tap caskroom/cask
-      brew tap caskroom/fonts
+      brew tap homebrew/cask-fonts
       ```
       
    4. Install font: font-firacode-nerd-font
