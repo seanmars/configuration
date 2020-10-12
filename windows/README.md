@@ -15,7 +15,7 @@
 
 ### Develop
 
-- [Jetbrain Toolbox](https://www.jetbrains.com/)
+- [Jetbrain Toolbox](https://www.jetbrains.com/) :moneybag:
 - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -23,9 +23,10 @@
 
 - [PowerToys](https://github.com/microsoft/PowerToys) Windows system utilities to maximize productivity
 - [Todoist](https://todoist.com/)
-- [DisplayFusion](https://www.displayfusion.com/)
+- [DisplayFusion](https://www.displayfusion.com/) :moneybag:
+- [1Password](https://1password.com/) :moneybag:
 - [ShareX](https://getsharex.com/)
-- [1Password](https://1password.com/)
+- [Snagit](https://www.techsmith.com/screen-capture.html) :moneybag:
 
 ### Terminal
 
